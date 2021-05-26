@@ -1,0 +1,539 @@
+
+
+
+
+
+.cleare::after{
+    contain: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+/* head-section */
+/* head-section */
+.head-section {
+    background-color: #0F92EA;
+    color: #fff;
+   
+}
+.left-section p{
+   display: inline-block;
+   line-height: 40px;
+   margin-bottom: 0;
+   font-size: 19px;
+   color: #fff;
+   font-family: 'Assistant';
+}
+.head-section .left-section li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.head-section .left-section li span{
+    display: inline-block;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.head-section .left-section li span i{
+    color: #fff;
+}
+
+.right-section span{
+    display: inline-block;
+    line-height: 40px;
+
+}
+.right-section p{
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+/* hadding-section */
+/* hadding-section */
+
+
+.banner-header{
+    background-color: #fff;
+    
+}
+
+.logo a{
+    line-height: 75px;
+}
+
+.banner-header ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.banner-header ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+.banner-header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 18px;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Assistant';
+    letter-spacing: 1px;
+}
+.banner-header ul li a:hover{
+    color: #0F92EA;
+
+}
+/* dropdown-section */
+/* dropdown-section */
+.banner-header ul li {
+    position: relative;
+}
+.banner-header ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 250px;
+    background-color: #FFF;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    padding-left: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    z-index: 99;
+}
+.banner-header ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.banner-header ul li ul li{
+    line-height: 40px;
+    display: block;
+}
+.banner-header ul li ul li a{
+    display: block;
+    text-align: left;
+    color: #000;
+}
+.banner-header ul li ul li:hover {
+    background-color: #282828;
+   
+}
+.carousel-caption {
+    text-align: left;
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 35px;
+    width: 51%;
+    line-height: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.carousel-caption p{
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 51%;
+    margin: 0 0 35px 0;
+    line-height: 22px;
+}
+.carousel-caption a{
+    margin: 0 0 35px 0;
+    margin-bottom: 150px;
+    line-height: 22px;
+    transition: .5s;
+}
+.carousel-caption a:hover{
+    background-color: #5C8626;
+}
+
+
+
+/* box-section */
+/* box-section */
+.box-section {
+    transform: translateY(-100px);
+}
+.box {
+    cursor: pointer;
+}
+.box-section h4{
+    font-size: 22px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.box-section p{
+    line-height: 1.3rem;
+    color: #fff;
+}
+.box-section .box-1{
+    background-color: #0F92EA;
+}
+
+.box-section .box-2{
+    background-color: #FF5253;
+ 
+}
+.box-section .box-3{
+    background-color: #FFBB00;
+  
+}
+.box-section i{
+    font-size: 4rem;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+
+/* AVAILABLE COURSES */
+/* AVAILABLE COURSES */
+.abailable-section {}
+.abailable-section .text-section{
+    text-align: center;
+}
+.abailable-section .text-section h2 {
+    color: #282828;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.abailable-section .text-section span{
+    color: #0F92EA;
+}
+
+.abailable-section .text-section p {
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: #282828;
+}
+.text-heading {
+    background-color: #F9F9F9;
+}
+.abailable-section .card{
+    border: none;
+}
+.abailable-section .text-heading {
+    padding: 1rem;
+}
+.abailable-section .text-heading h4{
+    color: #282828;
+    font-size: 18px;
+    margin: 0  0 15px;
+    font-family: 'Roboto';
+    line-height: 1.5rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+.text-heading p{
+    color: #6b6b6b;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    
+}
+.text-heading a{
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    
+}
+
+/* join-section */
+/* join-section */
+.join-section {
+    background: url("https://sktperfectdemo.com/demos/education/wp-content/themes/LMS/blocks/home_section3/assets/img/home-section3-bg.jpg") no-repeat center;
+    font-family: 'Roboto';
+    background-size: cover;
+}
+.join-section input{
+    padding: .5rem .7rem;
+    margin: .5rem;
+    width: 46%;
+
+}
+.text-section2 h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.text-section2 span {
+    color: #0F92EA;
+}
+.text-section2 .line{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fff;
+    text-align: left;
+    margin: 2rem 0;
+}
+.text-section2 p{
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: #fff;
+}
+.text-section2 input{
+    color: #333;
+
+}
+.text-section2 form{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text-section2 button{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    color: #fff;
+    background-color: #0F92EA;
+    padding: .5rem 2.5rem;
+    border-radius: 0;
+}
+.text-section3 {
+    padding-left: 2rem;
+}
+.text-section3 h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.text-section3 span{
+    color: #FFBB00;
+}
+.text-section3 .line{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fff;
+    text-align: left;
+    margin: 2rem 0;
+}
+.text-section3 p{
+    line-height: 1.6;
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: .9rem;
+}
+.section1 span{
+    display: inline-block;
+    text-align: center;
+}
+.section1 span i{
+    line-height: 50px;
+    color: #000;
+    font-size: 1.1rem;
+}
+.section1 .icon-bg{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.section1 a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Roboto';
+    margin-left: .5rem;
+    transition: .3s;
+    font-weight: 600;
+}
+.section1 a:hover{
+    color: #000;
+}
+.section1 p{
+    margin-left: 4rem;
+    font-size: .8rem;
+}
+
+/* nonte-section */
+/* nonte-section */
+.nonte-section {
+    background: url("https://sktperfectdemo.com/demos/education/wp-content/themes/LMS/blocks/home_section5/assets/img/home-section5-bg.jpg") no-repeat center;
+    background-size: cover;
+    padding: 5rem 0;
+
+
+}
+.nonte-section .border-seciton{
+    height: 13rem;
+    width: 13rem;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #0F92EA;
+    border-radius: 50%;
+    transition: .4s;
+}
+.nonte-section .border-seciton:hover{
+    background-color: #0F92EA;
+
+}
+.nonte-section .border-seciton i{
+    line-height: 110px;
+    font-size: 2rem;
+}
+.nonte-section .border-seciton h4{
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 0;
+}
+.nonte-section .border-seciton span{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* .location-section */
+/* .location-section */
+.location-section {
+    background-color: #0E77BD;
+    color: #fff;
+    font-family: Roboto Condensed;
+}
+.location-section .loca{
+    border-right: .1px solid #ddd;
+    padding: 1rem;
+}
+.location-section .loca i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.location-section .loca1{
+    padding: 1rem;
+}
+.location-section .loca1 i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.location-section p{
+    font-size: 1rem;
+}
+
+
+
+
+/* footer-section */
+/* footer-section */
+
+.woodworks-section {
+    background: url("https://www.sktperfectdemo.com/demos/woodworks/wp-content/themes/wood-works/images/footer-bg.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.woodworks-section h4{
+    margin-top: 50px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+
+}
+.woodworks-section .line{
+    height: 2px;
+    width: 50px;
+    background-color: #0F92EA;
+    margin: 25px 0;
+}
+.woodworks-section p{
+    font-family: 'Assistant';
+    font-size: 16px;
+    color: #bebebe;
+    line-height: 27px;
+    letter-spacing: 1px;
+    
+}
+
+
+.manuu {}
+.manuu ul{
+    padding-left: 0;
+}
+
+.manuu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.manuu ul li a{
+    display: block;
+    line-height: 39px;
+    color: #bebebe;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: .5s;
+}
+.manuu ul li i{
+    color: #bebebe;
+    margin-right: 5px;
+}
+.manuu ul li:hover a{
+    color: #B46020;
+}
+.manuu ul li a:hover i{
+    color: #B46020;
+}
+.manuu2 ul{
+    padding-left: 0;
+}
+.manuu2 ul li{
+    list-style: none;
+    display: block;
+    
+}
+.manuu2 ul li a{
+    display: inline-block;
+    line-height: 39px;
+    color: #bebebe;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: .5s;
+}
+.manuu2 ul li i{
+    color: #bebebe;
+    margin-right: 5px;
+}
+.manuu2 ul li:hover a{
+    color: #B46020;
+}
+.manuu2 ul li a:hover i{
+    color: #B46020;
+}
+.text-section10 li{
+    
+    list-style: none;
+    color: #bebebe;
+    line-height: 35px;
+}
+.address{
+    margin-top: 50px;
+}
+
+
